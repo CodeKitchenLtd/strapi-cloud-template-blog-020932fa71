@@ -30,7 +30,7 @@
           "localized": true
         }
       },
-      "targetField": "title"
+      "targetField": ""
     },
     "hashtags": {
       "type": "string",

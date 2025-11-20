@@ -641,7 +641,7 @@ export interface ApiFaqItemFaqItem extends Struct.CollectionTypeSchema {
       'api::faq-item.faq-item'
     >;
     publishedAt: Schema.Attribute.DateTime;
-    slug: Schema.Attribute.UID<'title'> &
+    slug: Schema.Attribute.UID<''> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
