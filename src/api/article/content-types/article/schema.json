@@ -161,6 +161,12 @@
       "relation": "manyToMany",
       "target": "api::article.article",
       "inversedBy": "related_articles_inv"
+    },
+    "related_articles_inv": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::article.article",
+      "mappedBy": "related_articles"
     }
   }
 }
